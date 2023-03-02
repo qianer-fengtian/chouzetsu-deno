@@ -1,8 +1,9 @@
 import { Math } from "./Math.ts";
 
 export class MathUtil {
+  constructor(private readonly math: Math) {}
+
   saturate(value: number, minValue: number, maxValue: number) {
-    const math = new Math();
-    return math.min(math.max(value, minValue), maxValue);
+    return this.math.min(this.math.max(value, minValue), maxValue);
   }
 }
