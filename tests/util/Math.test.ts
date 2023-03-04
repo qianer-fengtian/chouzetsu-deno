@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std@0.178.0/testing/asserts.ts";
-import { Math } from "../src/Math.ts";
+import { Math } from "../../src/util/Math.ts";
 
 Deno.test("min", () => {
   const math = new Math();

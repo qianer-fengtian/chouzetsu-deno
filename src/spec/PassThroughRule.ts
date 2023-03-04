@@ -1,4 +1,4 @@
-import { ReplaceRuleInterface } from "./ReplaceRuleInterface.ts";
+import { ReplaceRuleInterface } from "../core/ReplaceRuleInterface.ts";
 
 export class PassThroughRule implements ReplaceRuleInterface {
   apply(_: string, n: number): string {

@@ -1,7 +1,7 @@
 import { assertEquals } from "https://deno.land/std@0.178.0/testing/asserts.ts";
-import { NumberConverter } from "../src/NumberConverter.ts";
-import { CyclicNumberRule } from "../src/CyclicNumberRule.ts";
-import { PassThroughRule } from "../src/PassThroughRule.ts";
+import { NumberConverter } from "../src/core/NumberConverter.ts";
+import { CyclicNumberRule } from "../src/spec/CyclicNumberRule.ts";
+import { PassThroughRule } from "../src/spec/PassThroughRule.ts";
 
 Deno.test("fizzBuzz", () => {
   const fizzBuzz = new NumberConverter([

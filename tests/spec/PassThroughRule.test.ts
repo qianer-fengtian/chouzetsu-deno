@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std@0.178.0/testing/asserts.ts";
-import { PassThroughRule } from "../src/PassThroughRule.ts";
+import { PassThroughRule } from "../../src/spec/PassThroughRule.ts";
 
 Deno.test("apply", () => {
   const rule = new PassThroughRule();

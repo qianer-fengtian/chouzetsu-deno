@@ -4,8 +4,8 @@ import {
   assertSpyCalls,
   spy,
 } from "https://deno.land/std@0.178.0/testing/mock.ts";
-import { NumberConverter } from "../src/NumberConverter.ts";
-import { ReplaceRuleInterface } from "../src/ReplaceRuleInterface.ts";
+import { NumberConverter } from "../../src/core/NumberConverter.ts";
+import { ReplaceRuleInterface } from "../../src/core/ReplaceRuleInterface.ts";
 
 Deno.test("convert with empty rules", () => {
   const fizzBuzz = new NumberConverter([]);

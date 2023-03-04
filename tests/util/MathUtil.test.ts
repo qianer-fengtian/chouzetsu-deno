@@ -5,8 +5,8 @@ import {
   returnsNext,
   stub,
 } from "https://deno.land/std@0.178.0/testing/mock.ts";
-import { Math } from "../src/Math.ts";
-import { MathUtil } from "../src/MathUtil.ts";
+import { Math } from "../../src/util/Math.ts";
+import { MathUtil } from "../../src/util/MathUtil.ts";
 
 Deno.test("saturate #1", () => {
   const math = new Math();

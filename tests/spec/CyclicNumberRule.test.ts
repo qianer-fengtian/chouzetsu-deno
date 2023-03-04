@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std@0.178.0/testing/asserts.ts";
-import { CyclicNumberRule } from "../src/CyclicNumberRule.ts";
+import { CyclicNumberRule } from "../../src/spec/CyclicNumberRule.ts";
 
 Deno.test("apply", () => {
   const rule = new CyclicNumberRule(0, "Buzz");

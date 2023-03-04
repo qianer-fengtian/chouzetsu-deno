@@ -1,4 +1,4 @@
-import { ReplaceRuleInterface } from "./ReplaceRuleInterface.ts";
+import { ReplaceRuleInterface } from "../core/ReplaceRuleInterface.ts";
 
 export class CyclicNumberRule implements ReplaceRuleInterface {
   constructor(
